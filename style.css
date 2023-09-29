@@ -1,0 +1,950 @@
+.container1 {
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+}
+
+.navBar {
+    background-color: white;
+    border-bottom:  solid rgb(63, 1, 63) 1px;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.logo {
+    font-weight: 100px;
+    font-size: 28px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.logoFooter {
+    display: block;
+    font-weight: 100px;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.menuGroup {
+    display: flex;
+    align-items: left;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+    margin-right: 150px; 
+
+}
+
+.menus {
+    display: flex;
+    gap: 30px;
+}
+
+.navBarBtn {
+    color: rgb(63, 1, 63);
+    border-color: rgb(63, 1, 63);
+    background-color: white;
+    height: 30px;
+    width: 120px;
+}
+
+.navBarBtnSmallScreen {
+    display: none;
+}
+
+.hero {
+    background-color: rgb(63, 1, 63);
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 700px;
+    position: relative;
+}
+
+.overlayShape{
+    position: absolute;
+    top: 50;
+    right: 0;
+    z-index: 1000;
+    width: 400px;
+    /* height: 596px; */
+}
+
+.overlayShape2 {
+    position: absolute;
+    top: 500;
+    left: 0;
+    z-index: 1000;
+    width: 400px;
+}
+
+.overlayShape3 {
+    display: none;
+}
+
+.overlayShape4 {
+    display: none;
+}
+
+h1 {
+    color: white;
+    font-size: 55px;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: white;
+    color: white;
+    height: 44px;
+    width: 120px;
+} 
+
+.heroBody {
+    width: 100vw;
+    padding: 50px 10px 50px 0px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.famImage {
+    width: 600px;
+    height: 840px;
+    padding: 50px 0px;
+    margin-top: 50px;
+    /* margin-left: 150px; */
+    margin-right: 150px;
+ 
+}
+
+.container2 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 25px;
+}
+h5 {
+    color: rgb(159, 156, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.box {
+    display:flex;
+    gap: 30px;
+}
+
+.container3 {
+    background-color: rgb(63, 1, 63);
+    background-image: url(./countour\ image.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 0px 50px 0px 50px;
+}
+
+.footer {
+    background-color: rgba(171, 171, 171, 0.33);
+    height: 300px;
+    background-image: url(./countour\ image2.png);
+    background-size: cover;
+}
+
+.footerTopBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 10px;
+    margin-right: 150px;
+}
+
+hr{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.footerNav {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(116, 116, 116);
+}
+
+.footerNavBox {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 300px;
+    /* gap: 80px; */
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.signature {
+    color: rgb(116, 116, 116);
+    margin-top: 50px;
+    margin-left: 78%;
+}
+
+
+
+
+/* MAX WIDTH 544px */
+@media screen and (max-width: 544px) {
+    .container {
+        position: relative;
+    overflow: none;
+   }
+   
+    .container1 {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        text-align: center;
+    }
+    
+    .navBar {
+        background-color: white;
+        position: fixed;
+        z-index: 1;
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+
+    .logo {
+        font-weight: 100px;
+        font-size: 20px;
+        margin-left: 24px;
+        font-family: Arial, Helvetica, sans-serif;     
+    }
+    
+    .menuGroup {
+        display: flex;
+        align-items: left;
+        align-items: center;
+        gap: 40px;
+        justify-content: center;
+        padding: 0px;
+        font-size: 15px;
+        margin-right: 0px; 
+    
+    }
+    
+    .menus {
+        display: none;
+    }
+    
+    .navBarBtn {
+        display: none;
+    }
+    
+    .navBarBtnSmallScreen {
+        display:block;
+        color: rgb(63, 1, 63);
+        border-color: rgb(63, 1, 63);
+        background-color: white;
+        height: 30px;
+        width: 80px;
+        margin-right: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero {
+        display: block;
+        background-color: rgb(63, 1, 63);
+        width: 100vw;
+        height: 1200px;
+        position: none;
+        overflow: none;
+    }
+
+    .overlayShape {
+        display: none
+    }
+
+    .overlayShape2 {
+        display: none
+    }
+    .overlayShape3 {
+        display: block;
+        position: absolute;
+        top: 17.2%;
+        right: 0;
+        width: 200px;
+        z-index: 1000;
+    }
+    
+    .overlayShape4 {
+        display: block;
+        position: absolute;
+        top: 25%;
+        left: 0;
+        z-index: 1000;
+        width: 200px;
+    }
+
+
+    .famImage {
+        width: 100vw;
+        height: 80vh;
+        padding: 0px;
+        margin-top: 0px;
+        margin-left: 0px; 
+        margin-right: 0px; 
+    }
+    
+    h1 {
+        color: white;
+        font-size: 40px;
+    }
+    
+    .p {      
+        color: rgb(225, 22, 22);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        padding: 30px;
+    }
+    
+    .btn {
+        background-color: rgba(255, 255, 255, 0);
+        border-color: white;
+        color: white;
+        height: 44px;
+        width: 120px;
+    } 
+    
+    .heroBody {
+        display: block;
+        width: 90vw;
+        padding: 100px 0px 100px 0px;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 0px;
+        text-align: center;
+        overflow: none;    
+    }
+    
+    .container2 {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 500px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 55px;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+    h5 {
+        color: rgb(159, 156, 159);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    .box {
+        display: block;
+        gap: 30px;
+    }
+    
+    .container3 {
+        background-color: rgb(63, 1, 63);
+        background-image: url(./countour\ image.png);
+        background-size: cover;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 24px;
+        margin-right: 24px;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .footer {
+        background-color: rgba(171, 171, 171, 0.33);
+        height: 700px;
+        background-image: url(./countour\ image2.png);
+        background-size: cover;
+    }
+    
+    .footerTopBox {
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+        margin: 50px 100px 20px 100px;
+    }
+    
+    .logoFooter {
+        display: block;
+        font-weight: 100px;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+
+    .socialMedia {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    hr{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    
+    .footerNavBox {
+        display: block;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .footerNav {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-top: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: rgb(116, 116, 116);
+    }
+
+    .signature {
+        color: rgb(116, 116, 116);
+        margin-top: 50px;
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+
+/* MAX WIDTH 768px */
+@media screen and (max-width: 768px) {
+    .container {
+     position: relative;
+     overflow: none;
+    }
+    
+     .container1 {
+         width: 100vw;
+         height: 100vh;
+         position: relative;
+         text-align: center;
+     }
+     
+     .navBar {
+         background-color: white;
+         position: fixed;
+         z-index: 1;
+         width: 100vw;
+         height: 50px;
+         display: flex;
+         justify-content: center;
+         justify-content: space-between;
+         align-items: center;
+         font-family: Arial, Helvetica, sans-serif;
+        
+     }
+ 
+     .logo {
+         font-weight: 100px;
+         font-size: 20px;
+         margin-left: 24px;
+         font-family: Arial, Helvetica, sans-serif;     
+     }
+     
+     .menuGroup {
+         display: flex;
+         align-items: left;
+         align-items: center;
+         gap: 40px;
+         justify-content: center;
+         padding: 0px;
+         font-size: 15px;
+         margin-right: 0px; 
+     
+     }
+     
+     .menus {
+         display: none;
+     }
+     
+     .navBarBtn {
+         display: none;
+     }
+     
+     .navBarBtnSmallScreen {
+         display: flex;
+         color: rgb(63, 1, 63);
+         border-color: rgb(63, 1, 63);
+         background-color: white;
+         height: 30px;
+         width: 80px;
+         margin-right: 24px;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+     }
+ 
+     .hero {
+         display: block;
+         background-color: rgb(63, 1, 63);
+         width: 100vw;
+         height: 1300px;
+         position: none;
+         overflow: none;
+     }
+ 
+     .overlayShape {
+         display: none
+     }
+ 
+     .overlayShape2 {
+         display: none
+     }
+     .overlayShape3 {
+         display: block;
+         position: absolute;
+         top: 20%;
+         right: 0;
+         width: 200px;
+         z-index: 1000;
+     }
+     
+     .overlayShape4 {
+         display: block;
+         position: absolute;
+         top: 32%;
+         left: 0;
+         z-index: 1000;
+         width: 200px;
+     }
+ 
+ 
+     .famImage {
+         width: 544px;
+         height: 761.6px;
+         padding: 0px;
+         margin-top: 0px;
+         margin-left: 0px; 
+         margin-right: 0px; 
+     }
+     
+     h1 {
+         color: white;
+         font-size: 40px;
+     }
+     
+     .p {      
+         color: rgb(255, 255, 255);
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 12px;
+         padding: 30px;
+     }
+     
+     .btn {
+         background-color: rgba(255, 255, 255, 0);
+         border-color: white;
+         color: white;
+         height: 44px;
+         width: 120px;
+     } 
+     
+     .heroBody {
+         display: block;
+         padding: 100px 0px 100px 0px;
+         margin-top: 0px;
+         margin-left: 0px;
+         margin-right: 0px;
+         text-align: center;
+         overflow: none;    
+     }
+     
+     .container2 {
+         margin-left: 24px;
+         margin-right: 24px;
+         margin-top: 500px;
+         text-align: center;
+     }
+     
+     h2 {
+         font-size: 55px;
+     }
+     
+     h3 {
+         font-size: 25px;
+     }
+     h5 {
+         color: rgb(159, 156, 159);
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px;
+     }
+     
+     .box {
+         display: block;
+         gap: 30px;
+     }
+     
+     .container3 {
+         background-color: rgb(63, 1, 63);
+         background-image: url(./countour\ image.png);
+         background-size: cover;
+         display: block;
+         align-items: center;
+         justify-content: space-between;
+         margin-top: 50px;
+         margin-bottom: 50px;
+         margin-left: 24px;
+         margin-right: 24px;
+         padding: 50px;
+         text-align: center;
+     }
+     
+     .footer {
+         background-color: rgba(171, 171, 171, 0.33);
+         height: 700px;
+         background-image: url(./countour\ image2.png);
+         background-size: cover;
+     }
+     
+     .footerTopBox {
+         display: block;
+         justify-content: space-between;
+         align-items: center;
+         text-align: center;
+         margin: 50px 100px 20px 100px;
+     }
+     
+     .logoFooter {
+         display: block;
+         font-weight: 100px;
+         font-size: 20px;
+         margin-left: 0px;
+         margin-right: 0px;
+         font-family: Arial, Helvetica, sans-serif; 
+     }
+ 
+     .socialMedia {
+         display: flex;
+         gap: 10px;
+         justify-content: center;
+         margin-right: 0px;
+         margin-top: 10px;
+         text-align: center;
+     }
+     
+     hr{
+         margin-left: 50px;
+         margin-right: 50px;
+     }
+     
+     
+     .footerNavBox {
+         display: block;
+         margin-top: 20px;
+         margin-left: 0px;
+         margin-right: 0px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 15px;
+         text-align: center;
+     }
+     
+     .footerNav {
+         margin-left: 0px;
+         margin-right: 0px;
+         margin-bottom: 20px;
+         margin-top: 25px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 15px;
+         color: rgb(116, 116, 116);
+     }
+ 
+     .signature {
+         color: rgb(116, 116, 116);
+         margin-top: 50px;
+         margin-left: 0%;
+         text-align: center;
+     }
+ }
+
+ /* MAX WIDTH 1284px */
+ /* @media screen and (max-width: 1284px) {
+    .container1 {
+        width: 100vw;
+        height: 100vh;
+        overflow: none;
+    }
+    
+    .navBar {
+        background-color: white;
+        border-bottom:  solid rgb(63, 1, 63) 1px;
+        position: fixed;
+        z-index: 1;
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    
+    .logo {
+        font-weight: 100px;
+        font-size: 28px;
+        margin-left: 150px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    
+    .logoFooter {
+        display: block;
+        font-weight: 100px;
+        font-size: 20px;
+        margin-left: 120px;
+        margin-right: 100px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    
+    .menuGroup {
+        display: flex;
+        align-items: left;
+        align-items: center;
+        gap: 40px;
+        justify-content: center;
+        padding: 20px;
+        font-size: 15px;
+        margin-right: 150px; 
+    
+    }
+    
+    .menus {
+        display: flex;
+        gap: 30px;
+    }
+    
+    .navBarBtn {
+        color: rgb(63, 1, 63);
+        border-color: rgb(63, 1, 63);
+        background-color: white;
+        height: 30px;
+        width: 120px;
+    }
+    
+    .navBarBtnSmallScreen {
+        display: none;
+    }
+    
+    .hero {
+        background-color: rgb(63, 1, 63);
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
+        height: 700px;
+        position: relative;
+    }
+    
+    .overlayShape{
+        position: absolute;
+        top: 50;
+        right: 0;
+        z-index: 1000;
+        width: 400px;
+    }
+    
+    .overlayShape2 {
+        position: absolute;
+        top: 500;
+        left: 0;
+        z-index: 1000;
+        width: 400px;
+    }
+    
+    .overlayShape3 {
+        display: none;
+    }
+    
+    .overlayShape4 {
+        display: none;
+    }
+    
+    h1 {
+        color: white;
+        font-size: 55px;
+    }
+    
+    p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    .btn {
+        background-color: rgba(255, 255, 255, 0);
+        border-color: white;
+        color: white;
+        height: 44px;
+        width: 120px;
+    } 
+    
+    .heroBody {
+        width: 100vw;
+        padding: 50px 10px 50px 0px;
+        margin-top: 50px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .famImage {
+        width: 600px;
+        height: 840px;
+        padding: 50px 0px;
+        margin-top: 50px;
+        margin-right: 150px;
+     
+    }
+    
+    .container2 {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    h2 {
+        font-size: 55px;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+    h5 {
+        color: rgb(159, 156, 159);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    .box {
+        display:flex;
+        gap: 30px;
+    }
+    
+    .container3 {
+        background-color: rgb(63, 1, 63);
+        background-image: url(./countour\ image.png);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 0px 50px 0px 50px;
+    }
+    
+    .footer {
+        background-color: rgba(171, 171, 171, 0.33);
+        height: 300px;
+        background-image: url(./countour\ image2.png);
+        background-size: cover;
+    }
+    
+    .footerTopBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px;
+    }
+    
+    .socialMedia {
+        display: flex;
+        gap: 10px;
+        margin-right: 150px;
+    }
+    
+    hr{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .footerNav {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: rgb(116, 116, 116);
+    }
+    
+    .footerNavBox {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 150px;
+        margin-right: 300px;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .signature {
+        color: rgb(116, 116, 116);
+        margin-top: 50px;
+        margin-left: 78%;
+    }
+    
+} */
